@@ -12,6 +12,7 @@
     "react-addons-test-utils": "^15.6.0",
     "react-scripts": "1.0.10"
   },
+  "homepage": "http://tuningmind.github.io/domain",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -19,7 +20,7 @@
     "eject": "react-scripts eject",
     "build-css": "node-sass src/ -o src/",
     "watch-css": "npm run build-css && node-sass src/ -o src/ --watch --recursive",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
-
   }
 }
