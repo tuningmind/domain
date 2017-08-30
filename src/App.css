@@ -1,4 +1,25 @@
-canvas {
-  height: 250;
-  width: 10;
-  color: purple; }
+.row-between {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-start; }
+
+.wrap {
+  flex-wrap: wrap; }
+
+main {
+  height: 100vh;
+  background-image: url("./img/radio.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+a {
+  height: 1.7em;
+  background-color: #585047;
+  border: 2px solid #dad9d1;
+  box-shadow: inset 2px 2px 10px #444038, 2px 2px 5px #090502;
+  color: #f4f1d7;
+  margin: 5px;
+  padding: 1em 2em;
+  font-family: 'Courier New';
+  text-decoration: none;
+  border-radius: 3px; }
