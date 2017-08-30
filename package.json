@@ -4,7 +4,8 @@
   "private": true,
   "dependencies": {
     "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "react-dom": "^15.6.1",
+    "gh-pages": "^1.0.0"
   },
   "devDependencies": {
     "node-sass": "^4.5.3",
@@ -17,6 +18,8 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "build-css": "node-sass src/ -o src/",
-    "watch-css": "npm run build-css && node-sass src/ -o src/ --watch --recursive"
+    "watch-css": "npm run build-css && node-sass src/ -o src/ --watch --recursive",
+    "deploy": "gh-pages -d build"
+
   }
 }
