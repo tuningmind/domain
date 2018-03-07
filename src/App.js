@@ -12,7 +12,6 @@ class App extends Component {
           <div className='column-left'>
 			<a href='http://greenfield.education/'>greenfield education</a>
 			<a href='http://tuningmind.github.io/carpe_diem/'>carpe diem</a>
-			<a href='https://tuningmind-tiy.github.io/interview-cake/'>interview cake</a>
 			<a href='https://tuningmind.github.io/electrix/'>electrix salon</a>
 			<a href='https://tuningmind-tiy.github.io/wk-01-betty/'>betty's</a>
 			<a href='https://tuningmind-tiy.github.io/hangman-wk-02/'>hangman</a>
