@@ -14,7 +14,7 @@ class App extends Component {
 			<a href='http://tuningmind.github.io/carpe_diem/'>carpe diem</a>
 			<a href='https://tuningmind.github.io/electrix/'>electrix salon</a>
 			<a href='https://tuningmind-tiy.github.io/wk-01-betty/'>betty's</a>
-			<a href='https://tuningmind-tiy.github.io/hangman-wk-02/'>hangman</a>
+			<a href='https://tuningmind-tiy.github.io/hangman/'>hangman</a>
 			<a href='https://tuningmind-tiy.github.io/tic-tac-toe/'>tic-tac-toe</a>
 			<a href='https://tuningmind-tiy.github.io/blog-fish/'>blogfish</a>
 			<a href='https://tuningmind.github.io/mazeball/'>mazeball</a>
