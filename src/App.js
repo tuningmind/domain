@@ -10,8 +10,8 @@ class App extends Component {
 			<div className='header'>tuningmind.net</div>
           </div>
           <div className='column-left'>
-			<a href='http://greenfield.education/'>greenfield education</a>
-			<a href='http://tuningmind.github.io/carpe_diem/'>carpe diem</a>
+			<a href='https://lunaminds.gitlab.io/greenfield-education//'>greenfield education</a>
+			<a href='https://tuningmind.github.io/carpe_diem/'>carpe diem</a>
 			<a href='https://tuningmind.github.io/electrix/'>electrix salon</a>
 			<a href='https://tuningmind-tiy.github.io/wk-01-betty/'>betty's</a>
 			<a href='https://tuningmind-tiy.github.io/hangman/'>hangman</a>
