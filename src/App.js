@@ -1,22 +1,29 @@
 import React, { Component } from 'react'
 import './App.css'
+import A_tags from './components/A-tags.js'
 
 class App extends Component {
-  render() {
-    return (
-      <div className='App'>
-        <main className='row-between wrap'>
-          <div name="typewriter"  className='typerwriter-animation'>
-			<div className='header'>tuningmind.net</div>
-          </div>
-          <div className='column-left'>
-            <a href=''>slcc</a>
-            <a href=''>web work</a>
-			<a href='https://tuningmind-tiy.github.io/blog-fish/'>blogfish</a>
-		  </div>
-        </main>
-      </div>
-    );
+  constructor(props) {
+    super(props)
+    this.state = {
+      link_clicked: link_clicked
+    }
+
+    render() {
+      let link = this.props.link
+      return (
+        <div className='App'>
+          <main className='row-between wrap'>
+            <div name="typewriter"  className='typerwriter-animation'>
+              <div className='header'>tuningmind.net</div>
+            </div>
+            <div className='column-left'>
+              <A_tags {this.state.link_clicked}>
+            </div>
+          </main>
+        </div>
+      )
+    }
   }
 }
 
