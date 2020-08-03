@@ -4,47 +4,8 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
         <title>tuningmind-dot-net</title>
-        <style>
-            * {
-                box-sizing: border-box;
-                margin: 0;
-                border: 0;
-            }
-            body {
-                display: flex;
-                flex-direction: column;
-            }
-            main {
-                color: #f4f1d7;
-                font-family: 'Courier New';
-                height: 100vh;
-                background-image: url("./radio.jpg");
-                background-repeat: no-repeat;
-                background-size: cover; 
-            }
-            header {
-                width: 100vw;
-                height: 4em;
-                padding: .5em 2.4em 0 0;
-                background-color: rgba(38, 26, 13, 0.6);
-                font-family: 'Courier New';
-                color: white;
-                display: flex;
-                flex-direction: column;
-                align-items: center; }
-            .sub-header {
-                font-size: .7em;
-                padding-top: .5em;
-            }
-            .temp-msg {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                padding-top: 5em;
-                transform: skewY(4deg);
-            }
-        </style>
     </head>
     <body>
         <header>
@@ -52,8 +13,29 @@
             <div class="sub-header">seeking signal amidst noise</div>
         </header>
         <main>
-            <div class="temp-msg">
-                content coming some time
+            <aside>
+                <form method="get" id="search" action="https://duckduckgo.com/">
+                    <input type="hidden" name="sites" value="duckduckgo.com"/>
+                    <input 
+                        class="search" 
+                        type="text" 
+                        name="q" 
+                        maxlength="500" 
+                        onfocus=this.value=''
+                        placeholder="Search DuckDuckGo"/>
+                    <input type="submit" value="Search" style="visibility:hidden; display:none;" />
+                </form>
+                <a href="links.html">
+                    links
+                </a>
+                <a href="books.html">
+                    books
+                </a>
+            </aside>
+            <div class="content">
+                <div class="temp-msg">
+                    content coming some time
+                </div>
             </div>
         </main>
     </body>

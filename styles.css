@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+main {
+    display: flex;
+    flex-direction: row;
+    color: #f4f1d7;
+    font-family: 'Courier New';
+    height: 100vh;
+    background-image: url("./radio.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+header {
+    width: 100vw;
+    height: 4em;
+    padding: .5em 2.4em 0 0;
+    background-color: rgba(38, 26, 13, 0.6);
+    font-family: 'Courier New';
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+.sub-header {
+    font-size: .7em;
+    padding-top: .5em;
+}
+.temp-msg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5em;
+    transform: skewY(4deg);
+}
+aside {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 20vw;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+}
+.content {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+a, input {
+    background-color: #585047;
+    border: 2px solid #bebebe;
+    box-shadow: inset 2px 2px 10px #444038, 2px 2px 5px #090502;
+    color: #bebebe;
+    padding: 1rem 2rem;
+    font-family: 'Courier New';
+    text-decoration: none;
+    border-radius: 3px;
+    width: 100%;
+}
+input {
+    width: 100%;
+    font-size: 1em;
+}
+form {
+    padding: 0;
+}
+ul {
+}
+li {
+    list-style-type: none;
+}
+li:first-child {
+    padding-top: 1em;
+}
+
+
